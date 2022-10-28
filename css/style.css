@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.buttons{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input[type=button]{
+    margin:20px;
+    padding:10px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border:none;
+    border-radius:15px;
+    color: white;
+    font-weight: bold;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    width: 130px;
+    padding: 12px;
+    box-shadow: 4px 4px 15px rgb(133, 132, 132);
+    transition: ease-in;
+    transition-duration: 0.1s;
+ }
+.zadatak-1{
+    background-image: linear-gradient(to right, rgb(117, 75, 117), rgb(201, 136, 201));
+}
+.zadatak-2{
+    background-image: linear-gradient(to right, rgb(131, 54, 81), rgb(243, 139, 196));
+}
+.zadatak-3{
+    background-image: linear-gradient(to right, rgb(124, 34, 96), rgb(159, 123, 181));
+}
+.zadatak-4{
+    background-image: linear-gradient(to right, rgb(68, 119, 173), rgb(153, 153, 214));
+}
+.zadatak-5{
+    background-image: linear-gradient(to right, rgb(105, 14, 49), rgb(141, 153, 246));
+}
+.zadatak-6{
+    background-image: linear-gradient(to right, rgb(122, 43, 183), rgb(187, 146, 227));
+}
+.zadatak-7{
+    background-image: linear-gradient(to right, rgb(194, 41, 120), rgb(232, 108, 172));
+}
+.zadatak-8{
+    background-image: linear-gradient(to right, rgb(61, 73, 168), rgb(158, 158, 234));
+}
+.zadatak-9{
+    background-image: linear-gradient(to right, rgb(55, 151, 241), rgb(222, 133, 222));
+}
